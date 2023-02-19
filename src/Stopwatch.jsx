@@ -12,7 +12,7 @@ const StopWatch = ()=>{
     const PauseHandler = ()=>{
         setStatus({...status,start:false,pause:true,reset:false,cast:false})
         clearInterval(countRef.current);
-        console.log(player);
+        console.log(player); 
     }
     const StartHandler = ()=>{
         setStatus({...status,start:true,pause:false,reset:false,cast:false})
