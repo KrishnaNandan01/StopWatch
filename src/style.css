@@ -1,0 +1,107 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 135);
+}
+
+.card-div{
+    width: 30vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.card{
+    width: 90%;
+    height: 20%;
+    margin-left: 20px;
+    box-shadow: 1px 1px 7px green;
+    border-radius: 5px;
+    color: rgb(53, 53, 135);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card>span{
+    margin: 10px;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn>button{
+    height: 5.8vh;
+    width: 20%;
+    margin: 20px 10px;
+    color: white;
+}
+
+#pause{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+
+}
+#pause:disabled{
+    background-color: rgb(155, 155, 255); 
+}
+#start{
+    background-color: rgb(140, 91, 99);
+    border: none;
+    border-radius: 5px;
+
+}
+#reset{
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+#reset:disabled{
+    background-color: rgb(245, 153, 137);
+}
+#cast{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}
+#cast:disabled{
+    background-color: rgb(147, 177, 147);
+}
+#pause:active{
+    background-color: rgb(221, 221, 221);
+    transition: 300ms;
+}
+#start:active{
+    background-color: rgb(221, 221, 221);
+    transition: 300ms;
+}
+#start:disabled{
+    background-color: rgb(212, 178, 184);
+}
+#reset:active{
+    background-color: rgb(221, 221, 221);
+    transition: 300ms;
+}
+#cast:active{
+    background-color: rgb(221, 221, 221);
+    transition: 300ms;
+}
+h4{
+    text-align: center;
+}
+.player{
+    margin-left: 10px;
+}
+.player>div{
+    margin-top: 5px;
+}
+
+#time{
+    margin-top: 5px;
+}
